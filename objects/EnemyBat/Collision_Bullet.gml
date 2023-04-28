@@ -1,9 +1,10 @@
 /// @DnDAction : YoYo Games.Instance Variables.If_Health
 /// @DnDVersion : 1
 /// @DnDHash : 25A0BD0F
+/// @DnDArgument : "op" "3"
 /// @DnDArgument : "value" "15"
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health == 15)
+if(__dnd_health <= 15)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

@@ -19,4 +19,3 @@ randomize();
 instance_create_layer(0 , 0 , "Instances_2" , PlayerLifeCountDisplay)
 instance_create_layer(0 , 0 , "Instances_2" , WaveDisplayObject)
 instance_create_layer(0 , 0 , "Instances_2" , PlayerBulletCountDisplay)
-instance_create_layer(0 , 0 , "Instances" , GamePauseObject)

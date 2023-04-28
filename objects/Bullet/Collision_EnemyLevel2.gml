@@ -1,4 +1,5 @@
+
 if(global.BulletSuperBigMode == 0)
 {
-instance_destroy();
+	instance_destroy();
 }

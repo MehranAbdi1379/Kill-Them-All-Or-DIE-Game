@@ -42,6 +42,7 @@
     {"id":{"name":"Level1Wave4GlobalObject","path":"objects/Level1Wave4GlobalObject/Level1Wave4GlobalObject.yy",},"order":0,},
     {"id":{"name":"EnemyBossLevel1","path":"objects/EnemyBossLevel1/EnemyBossLevel1.yy",},"order":1,},
     {"id":{"name":"Grass","path":"objects/Grass/Grass.yy",},"order":0,},
+    {"id":{"name":"Level2Wave2GlobalObject","path":"objects/Level2Wave2GlobalObject/Level2Wave2GlobalObject.yy",},"order":2,},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},"order":0,},
     {"id":{"name":"RoomLevel1Wave8","path":"rooms/RoomLevel1Wave8/RoomLevel1Wave8.yy",},"order":0,},
     {"id":{"name":"GunBullet","path":"objects/GunBullet/GunBullet.yy",},"order":0,},
@@ -103,7 +104,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"RoomMain","path":"rooms/RoomMain/RoomMain.yy",},},
-    {"roomId":{"name":"RoomLevel2Wave1","path":"rooms/RoomLevel2Wave1/RoomLevel2Wave1.yy",},},
     {"roomId":{"name":"RoomLevel1Wave1","path":"rooms/RoomLevel1Wave1/RoomLevel1Wave1.yy",},},
     {"roomId":{"name":"RoomLevel1Wave2","path":"rooms/RoomLevel1Wave2/RoomLevel1Wave2.yy",},},
     {"roomId":{"name":"RoomLevel1Wave3","path":"rooms/RoomLevel1Wave3/RoomLevel1Wave3.yy",},},
@@ -114,6 +114,7 @@
     {"roomId":{"name":"RoomLevel1Wave8","path":"rooms/RoomLevel1Wave8/RoomLevel1Wave8.yy",},},
     {"roomId":{"name":"RoomLevel1Wave9","path":"rooms/RoomLevel1Wave9/RoomLevel1Wave9.yy",},},
     {"roomId":{"name":"RoomLevel1WaveFinal","path":"rooms/RoomLevel1WaveFinal/RoomLevel1WaveFinal.yy",},},
+    {"roomId":{"name":"RoomLevel2Wave1","path":"rooms/RoomLevel2Wave1/RoomLevel2Wave1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Animation Curves.yy","order":0,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
