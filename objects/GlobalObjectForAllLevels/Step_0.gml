@@ -39,7 +39,7 @@ if(global.BulletSuperBigCreateCounter == 1000)
 	global.BulletSuperBigCreateCounter = -1000;
 }
 
-if instance_number(Enemy) == 0 && instance_number(EnemyBoss) == 0 && instance_number(EnemyLevel2) == 0
+if instance_number(EnemyGlobal) == 0 
 {
 	instance_create_layer(0 , 0 , "Instances" , MissionCompleteObject) 
 }

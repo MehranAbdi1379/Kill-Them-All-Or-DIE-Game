@@ -4,10 +4,7 @@
 if global.MissionWonCountDown < 200 {
 	global.MissionWonCountDown++;
 }
-else if room!= RoomLevel1WaveFinal
+if global.MissionWonCountDown == 200 
 {
 	room_goto_next()
-}
-else {
-	room_goto(1)
 }

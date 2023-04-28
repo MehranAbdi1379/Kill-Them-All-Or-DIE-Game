@@ -16,6 +16,6 @@ if(global.EnemyCreateCounter == 428)
 if(global.EnemyCreateCounter == 429)
 {
 	var rand = random_range(100,500)
-	instance_create_layer(1350, rand, "Instances", EnemyBoss)
+	instance_create_layer(1350, rand, "Instances", EnemyBig)
 	global.EnemyCreateCounter=0;
 }

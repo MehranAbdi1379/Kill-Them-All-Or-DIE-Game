@@ -10,7 +10,7 @@ if global.wait ==100{
 	{
 		room_restart()
 		global.PlayerLives--
-global.WaveCounter--
+		if(!room=RoomLevel1WaveFinal) global.WaveCounter--
 	}
 	else {
 		room_goto(RoomMain)

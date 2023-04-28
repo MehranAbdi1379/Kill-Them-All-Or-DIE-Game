@@ -20,17 +20,8 @@ if(__dnd_health == 15)
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 __dnd_health += real(-15);
 
-/// @DnDAction : YoYo Games.Instance Variables.If_Health
+/// @DnDAction : YoYo Games.Movement.Jump_To_Start
 /// @DnDVersion : 1
-/// @DnDHash : 141754DE
-/// @DnDArgument : "value" "30"
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health == 30)
-{
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
-	/// @DnDVersion : 1
-	/// @DnDHash : 1F10D983
-	/// @DnDParent : 141754DE
-	x = xstart;
-	y = ystart;
-}
+/// @DnDHash : 1F10D983
+x = xstart;
+y = ystart;

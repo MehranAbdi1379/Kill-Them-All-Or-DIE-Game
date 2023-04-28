@@ -16,7 +16,7 @@ if(global.EnemyCreateCounter == 702)
 if(global.EnemyCreateCounter == 703)
 {
 	var rand = random_range(100,500)
-	instance_create_layer(1350, rand, "Instances", EnemyBoss)
+	instance_create_layer(1350, rand, "Instances", EnemyBig)
 	global.EnemyCreateCounter=2;
 }
 

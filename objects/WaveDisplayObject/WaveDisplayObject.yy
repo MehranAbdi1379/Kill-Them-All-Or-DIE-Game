@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GlobalObjects",
-    "path": "folders/Objects/GlobalObjects.yy",
+    "name": "Display",
+    "path": "folders/Objects/GlobalObjects/Display.yy",
   },
   "resourceVersion": "1.0",
   "name": "WaveDisplayObject",
