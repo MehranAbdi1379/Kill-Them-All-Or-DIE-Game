@@ -25,6 +25,9 @@ global.BulletSuperBigCounter=0;
 instance_destroy(PlayerBulletSuperModeDisplay)
 }
 
+
+
+
 if keyboard_check(vk_left) && keyboard_check(vk_up)
 {
 direction = 135;

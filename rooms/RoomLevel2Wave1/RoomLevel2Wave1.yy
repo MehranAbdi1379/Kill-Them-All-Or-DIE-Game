@@ -255,8 +255,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Level2",
+    "path": "folders/Rooms/Level2.yy",
   },
   "resourceVersion": "1.0",
   "name": "RoomLevel2Wave1",

@@ -97,6 +97,6 @@ if(global.PlayerHasTheGun == 1)
 			global.PlayerBulletCount += -1;
 		}
 		}
-		global.PlayerShootCounter = 30
+		global.PlayerShootCounter = 15
 	}
 }
