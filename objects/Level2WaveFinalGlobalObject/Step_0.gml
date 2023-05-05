@@ -6,24 +6,24 @@ event_inherited();
 
 global.EnemyCreateCounter+=3;
 
-if(global.EnemyCreateCounter == 702)
+if(global.EnemyCreateCounter == 1002)
 {
 	var rand = random_range(100,500)
-	instance_create_layer(1350, rand, "Instances", EnemyLevel2);
+	instance_create_layer(1350, rand, "Instances", EnemyBig);
 	global.EnemyCreateCounter=1;
 }
 
-if(global.EnemyCreateCounter == 703)
+if(global.EnemyCreateCounter == 1003)
 {
 	var rand = random_range(100,500)
-	instance_create_layer(1350, rand, "Instances", EnemyLevel2);
+	instance_create_layer(1350, rand, "Instances", EnemyBat);
 	global.EnemyCreateCounter=2;
 }
 
-if(global.EnemyCreateCounter == 704)
+if(global.EnemyCreateCounter == 1004)
 {
 	var rand = random_range(100,500)
-	instance_create_layer(1350, rand, "Instances", EnemyBig)
+	instance_create_layer(1350, rand, "Instances", EnemyBatBig)
 	global.EnemyCreateCounter=0;
 }
 

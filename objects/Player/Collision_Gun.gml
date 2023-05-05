@@ -1,6 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 094F65B4
-/// @DnDArgument : "value" "1"
-/// @DnDArgument : "var" "global.PlayerHasTheGun"
+if(global.PlayerHasTheGun == 1)
+{
+	x -= dcos(point_direction(x, y, other.x, other.y))*4
+y += dsin(point_direction(x, y, other.x, other.y))*4
+}
+
 global.PlayerHasTheGun = 1;
+
+
