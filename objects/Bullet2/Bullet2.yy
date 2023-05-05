@@ -37,7 +37,7 @@
     "path": "folders/Objects/Bullets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Bullet",
+  "name": "Bullet2",
   "tags": [],
   "resourceType": "GMObject",
 }
