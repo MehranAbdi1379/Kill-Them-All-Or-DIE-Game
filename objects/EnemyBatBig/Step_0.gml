@@ -20,11 +20,11 @@ fastMovementCounter = 360;
 if(fastMovementPeriodCounter > 0)
 {
 fastMovementPeriodCounter--
-self.speed = 8;
+self.speed = 6;
 }
 
 if(fastMovementPeriodCounter == 0)
-self.speed = 1.75;
+self.speed = 1.25;
 
 //if p1hyp < p2hyp
 {

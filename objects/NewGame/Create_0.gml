@@ -4,3 +4,5 @@
 audio_play_sound(GameMusic, 0 , true)
 
 global.PlayerLives = 3
+
+global.FinalWave = false
