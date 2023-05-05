@@ -5,6 +5,6 @@ if (global.PlayerLives > 0)
 {
 for(var i=global.PlayerLives ; i>0 ; i--)
 {
-draw_sprite(HeartSprite , 0 , (240 + (i-3) * 30 ) , 0)
+draw_sprite(HeartSprite , 0 , (600 + (i-3) * 30 ) , 0)
 }
 }
