@@ -1,3 +1,4 @@
+event_inherited()
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 if(global.BulletSuperBigMode ==1)
 {

@@ -44,4 +44,16 @@ if instance_number(EnemyGlobal) == 0
 	instance_create_layer(0 , 0 , "Instances" , MissionCompleteObject) 
 }
 
+if(global.SuperPowerModeOn==1)
+{
+global.SuperPowerModeOnCounter--;
+}
+
+
+if(global.SuperPowerModeOnCounter==0)
+{
+	global.SuperPowerModeOn=0;
+}
+
+
 

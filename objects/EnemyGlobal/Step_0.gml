@@ -20,3 +20,5 @@ if p1hyp >= p2hyp
 {
 	direction = point_direction(x,y,Player2.x, Player2.y)
 }
+
+
