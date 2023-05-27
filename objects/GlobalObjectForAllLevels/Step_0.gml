@@ -56,4 +56,3 @@ if(global.SuperPowerModeOnCounter==0)
 }
 
 
-

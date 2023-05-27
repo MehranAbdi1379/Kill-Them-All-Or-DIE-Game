@@ -42,6 +42,7 @@
     {"id":{"name":"GlobalObjectForAllLevels","path":"objects/GlobalObjectForAllLevels/GlobalObjectForAllLevels.yy",},"order":0,},
     {"id":{"name":"Level2Wave1GlobalObject","path":"objects/Level2Wave1GlobalObject/Level2Wave1GlobalObject.yy",},"order":1,},
     {"id":{"name":"Level2Wave5GlobalObject","path":"objects/Level2Wave5GlobalObject/Level2Wave5GlobalObject.yy",},"order":5,},
+    {"id":{"name":"DefenceBullet","path":"objects/DefenceBullet/DefenceBullet.yy",},"order":4,},
     {"id":{"name":"WaveDisplayObject","path":"objects/WaveDisplayObject/WaveDisplayObject.yy",},"order":3,},
     {"id":{"name":"BaclgroundSprite","path":"sprites/BaclgroundSprite/BaclgroundSprite.yy",},"order":0,},
     {"id":{"name":"GunSprite","path":"sprites/GunSprite/GunSprite.yy",},"order":0,},
