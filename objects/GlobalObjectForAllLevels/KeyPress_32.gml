@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.SuperPowerCounter >= 10) 
+if(global.SuperPowerCounter >= 40) 
 {
 	global.SuperPowerCounter=0;
 	for(var i = 0; i< 20 ; i+=1)

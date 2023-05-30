@@ -27,13 +27,12 @@ global.SuperPowerCounter= 0;
 global.SuperPowerModeOn = 0;
 
 global.SuperPowerModeOnCounter = 0;
+
+global.Player1SuperPowerCounter= 0;
+global.Player2SuperPowerCounter= 0;
 randomize();
 
-instance_create_layer(0 , 0 , "Instances_2" , PlayerLifeCountDisplay)
-instance_create_layer(0 , 0 , "Instances_2" , WaveDisplayObject)
-instance_create_layer(0 , 0 , "Instances_2" , PlayerBulletCountDisplay)
-instance_create_layer(0 , 0 , "Instances_2" , Player2BulletCountDisplay)
-instance_create_layer(0 , 0 , "Instances_2" , SuperModeDisplay)
+instance_create_layer(0 , 0 , "Instances_2" , GlobalDisplay)
 instance_create_layer(0 , 0 , "Instances" , Gun)
 instance_create_layer(0 , 0 , "Instances" , Gun)
 instance_create_layer(0 , 0 , "Instances" , GamePauseObject)

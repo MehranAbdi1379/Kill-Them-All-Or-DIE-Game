@@ -27,7 +27,7 @@
     "path": "folders/Objects/GlobalObjects/Display.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Player2BulletCountDisplay",
+  "name": "GlobalDisplay",
   "tags": [],
   "resourceType": "GMObject",
 }

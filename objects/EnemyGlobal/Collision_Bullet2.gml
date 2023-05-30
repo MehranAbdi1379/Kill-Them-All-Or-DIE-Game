@@ -7,3 +7,8 @@ global.SuperPowerCounter<10
 {
 global.SuperPowerCounter+=1;
 }
+
+if(global.Player2SuperPowerCounter<40)
+{
+	global.Player2SuperPowerCounter++;
+}
