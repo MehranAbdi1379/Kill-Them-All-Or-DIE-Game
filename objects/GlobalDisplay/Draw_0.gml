@@ -15,11 +15,11 @@ draw_sprite(HeartSprite , 0 , (600 + (i-3) * 30 ) , 0)
 }
 }
 
-draw_healthbar(650, 720, 850, 740, global.SuperPowerCounter*2.5, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF5A28FF>>24) != 0));
+draw_healthbar(650, 720, 850, 740, global.SuperPowerCounter*2.5, c_ltgray, c_blue, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF5A28FF>>24) != 0));
 
-draw_healthbar(350, 740, 550, 760, global.Player1SuperPowerCounter*2.5, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF5A28FF>>24) != 0));
+draw_healthbar(350, 740, 550, 760, global.Player1SuperPowerCounter*2.5, c_ltgray, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF5A28FF>>24) != 0));
 
-draw_healthbar(1150, 740, 1350, 760, global.Player2SuperPowerCounter*2.5, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF5A28FF>>24) != 0));
+draw_healthbar(1150, 740, 1350, 760, global.Player2SuperPowerCounter*2.5, c_ltgray, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF5A28FF>>24) != 0));
 
 if(global.FinalWave == false)
 {
