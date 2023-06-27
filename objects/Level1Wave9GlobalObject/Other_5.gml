@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-global.WaveCounter = "Final Wave"
+global.WaveCounter+=1;

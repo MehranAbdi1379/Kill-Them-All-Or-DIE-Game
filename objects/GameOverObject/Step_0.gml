@@ -8,9 +8,11 @@ if global.wait<100 {
 if global.wait ==100{
 	if(global.PlayerLives>1)
 	{
-		room_restart()
+		
 		global.PlayerLives--
-		if(room!=RoomLevel1WaveFinal && room!=RoomLevel2WaveFinal) global.WaveCounter--
+		global.WaveCounter--
+		global.WaveCounter--
+		room_restart()
 	}
 	else {
 		room_goto(RoomMain)

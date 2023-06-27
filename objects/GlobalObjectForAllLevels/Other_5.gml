@@ -4,3 +4,4 @@
 audio_stop_sound(GameMusic)
 
 global.WaveCounter+=1
+
